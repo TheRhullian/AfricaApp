@@ -30,7 +30,7 @@ struct AnimalListItemView: View {
                     .multilineTextAlignment(.leading)
                     .lineLimit(2)
                     .padding(.trailing, 8)
-            }
+            }//:VSTACK
         }//: HSTACK
     }//: BODY
 }
