@@ -25,6 +25,18 @@ extension Image {
         .init(systemName: "photo")
     }
     
+    static var systemMapCircle: Image {
+        .init(systemName: "mappin.circle")
+    }
+    
+    static var systemGlobe: Image {
+        .init(systemName: "globe")
+    }
+    
+    static var systemArrowUpRightSquare: Image {
+        .init(systemName: "arrow.up.right.square")
+    }
+    
     // MARK: - Cover Images
     static var coverBuffalo: Image {
         .init("cover-buffalo")
