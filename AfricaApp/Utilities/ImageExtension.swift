@@ -33,6 +33,14 @@ extension Image {
         .init(systemName: "globe")
     }
     
+    static var systemPlayCircle: Image {
+        .init(systemName: "play.circle")
+    }
+    
+    static var systemArrow2SquarePath: Image {
+        .init(systemName: "arrow.2.squarepath")
+    }
+    
     static var systemArrowUpRightSquare: Image {
         .init(systemName: "arrow.up.right.square")
     }
