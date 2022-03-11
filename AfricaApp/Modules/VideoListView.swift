@@ -9,14 +9,20 @@ import SwiftUI
 
 struct VideoListView: View {
     @State var videos: [Video] = Bundle.main.decode("videos")
+    
     let hapticImpact = UIImpactFeedbackGenerator(style:.medium)
     
     var body: some View {
         NavigationView {
             List {
                 ForEach(videos) { item in
-                    VideoListItemView(video: item)
-                        .padding(.vertical, 8)
+                    NavigationLink {
+                        VideoPlayerView(videoSelected: item.id, videoTitle: item.name)
+                    } label: {
+                        VideoListItemView(video: item)
+                            .padding(.vertical, 8)
+                    }
+
                 }//: FOR EACH
             }//: LIST
             .listStyle(.inset)
@@ -31,8 +37,8 @@ struct VideoListView: View {
                         Image.systemArrow2SquarePath
                     }//: BUTTON
 
-                }
-            }
+                }//: TOOLBAR ITEM
+            }//: LIST TOOLBAR
         }//: NAVIGATION
     }//: BODY
 }
