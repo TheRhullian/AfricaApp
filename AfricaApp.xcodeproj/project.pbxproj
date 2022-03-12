@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C76F343F27DC294100EC2D80 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76F343E27DC294100EC2D80 /* LocationModel.swift */; };
 		C792071527D975AE00315A6B /* AfricaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792071427D975AE00315A6B /* AfricaAppApp.swift */; };
 		C792071727D975AE00315A6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792071627D975AE00315A6B /* ContentView.swift */; };
 		C792071927D975AF00315A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C792071827D975AF00315A6B /* Assets.xcassets */; };
@@ -68,6 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C76F343E27DC294100EC2D80 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		C792071127D975AE00315A6B /* AfricaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfricaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C792071427D975AE00315A6B /* AfricaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaAppApp.swift; sourceTree = "<group>"; };
 		C792071627D975AE00315A6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				C792075B27D9833F00315A6B /* CoverImageModel.swift */,
 				C7C5F95D27DAD18100E489D3 /* VideoModel.swift */,
 				C7C5F93827D98A5B00E489D3 /* AnimalModel.swift */,
+				C76F343E27DC294100EC2D80 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 				C7C5F96027DAD1D300E489D3 /* VideoListItemView.swift in Sources */,
 				C7C5F93727D9897500E489D3 /* AnimalListItemView.swift in Sources */,
 				C792071727D975AE00315A6B /* ContentView.swift in Sources */,
+				C76F343F27DC294100EC2D80 /* LocationModel.swift in Sources */,
 				C7C5F93F27D98F0200E489D3 /* InsetGalleryView.swift in Sources */,
 				C792075527D97B7D00315A6B /* MainView.swift in Sources */,
 				C792075127D97B6500315A6B /* MapView.swift in Sources */,
