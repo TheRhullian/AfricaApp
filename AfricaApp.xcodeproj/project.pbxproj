@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C70A86A127DC6E5300852E08 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A86A027DC6E5300852E08 /* AnimalGridItemView.swift */; };
 		C76F343F27DC294100EC2D80 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76F343E27DC294100EC2D80 /* LocationModel.swift */; };
 		C76F344127DC2B6D00EC2D80 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76F344027DC2B6D00EC2D80 /* MapAnnotationView.swift */; };
 		C76F344327DC2FF100EC2D80 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76F344227DC2FF100EC2D80 /* MotionAnimationView.swift */; };
@@ -71,6 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C70A86A027DC6E5300852E08 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		C76F343E27DC294100EC2D80 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		C76F344027DC2B6D00EC2D80 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		C76F344227DC2FF100EC2D80 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				C7C5F93E27D98F0200E489D3 /* InsetGalleryView.swift */,
 				C7C5F93C27D98E2300E489D3 /* HeadingView.swift */,
 				C76F344227DC2FF100EC2D80 /* MotionAnimationView.swift */,
+				C70A86A027DC6E5300852E08 /* AnimalGridItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -445,6 +448,7 @@
 				C792071727D975AE00315A6B /* ContentView.swift in Sources */,
 				C76F343F27DC294100EC2D80 /* LocationModel.swift in Sources */,
 				C7C5F93F27D98F0200E489D3 /* InsetGalleryView.swift in Sources */,
+				C70A86A127DC6E5300852E08 /* AnimalGridItemView.swift in Sources */,
 				C792075527D97B7D00315A6B /* MainView.swift in Sources */,
 				C76F344127DC2B6D00EC2D80 /* MapAnnotationView.swift in Sources */,
 				C792075127D97B6500315A6B /* MapView.swift in Sources */,

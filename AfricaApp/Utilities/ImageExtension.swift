@@ -45,6 +45,22 @@ extension Image {
         .init(systemName: "arrow.up.right.square")
     }
     
+    static var systemGrid1x2: Image {
+        .init(systemName: "square.fill.text.grid.1x2")
+    }
+    
+    static var systemGrid2x2: Image {
+        .init(systemName: "square.grid.2x2")
+    }
+    
+    static var systemGrid3x2: Image {
+        .init(systemName: "square.grid.3x2")
+    }
+    
+    static var systemRectangleGrid1x2: Image {
+        .init(systemName: "rectangle.grid.1x2")
+    }
+    
     // MARK: - Cover Images
     static var coverBuffalo: Image {
         .init("cover-buffalo")
