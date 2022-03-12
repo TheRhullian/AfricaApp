@@ -26,12 +26,47 @@ struct MapView: View {
 //            MapMarker(coordinate: item.location, tint: .accentColor)
             // CUSTOM - CAN BE DYNAMIC
             MapAnnotation(coordinate: item.location) {
-                Image.logo
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 32, height: 32, alignment: .center)
+                MapAnnotationView(location: item)
             }//: ANNOTATION
         }//: MAP
+        .overlay(
+            HStack {
+                Image.compass
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 48, height: 48, alignment: .center)
+                VStack(alignment: .leading, spacing: 3) {
+                    HStack {
+                        Text("Latitude:")
+                            .font(.footnote)
+                            .fontWeight(.bold)
+                            .foregroundColor(.accentColor)
+                        Spacer()
+                        Text("\(region.center.latitude)")
+                    }//: HSTACK
+                    
+                    Divider()
+                    
+                    HStack {
+                        Text("Longitude:")
+                            .font(.footnote)
+                            .fontWeight(.bold)
+                            .foregroundColor(.accentColor)
+                        Spacer()
+                        Text("\(region.center.longitude)")
+                    }//: HSTACK
+                }//: VSTACK
+            }//:HSTACK
+                .padding(.vertical, 12)
+                .padding(.horizontal, 16)
+                .background(
+                    Color.black
+                        .opacity(0.6)
+                        .cornerRadius(8)
+                )
+                .padding()
+            , alignment: .top
+        )//:OVERLAY
     }//: BODY
 }
 
